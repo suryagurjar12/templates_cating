@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@@</title>
+    <link rel="stylesheet" href="{% static 'css/index.css'%}">
+    </head>
+    <body>
+    
+    <!-- Navbar -->
+    <div class="navbar">
+      <!-- Branding -->
+      <h1 class="branding"> @@ </h1>
+      <!-- Navbar icon -->
+      <!-- <span class="icon">&#9776;</span> -->
+      <!-- Navbar links -->
+      <ul>
+      <li><a href="{% url 'home' %}">Home</a></li>
+      {% comment %} <li> <a href="{% url 'cars' %}">Cars</a></li> {% endcomment %}
+      <li><a href="{% url 'Services' %}">Services</a></li>
+      <li><a href="{% url 'contact' %}">Contact</a></li>
+      <li><a href="{% url 'about' %}"> About Us</a></li>
+    </ul>
+    </div>
+    
+    </body>
+    </html>
+
+
+    {% block content %}
+    <h2>this is loading page</h2>
+    {% endblock %}
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+        <p>Connect with us:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <p>Contact us: example@example.com</p>
+      </div>
+      
+    </footer>
+
+    
+</body>
+</html>
