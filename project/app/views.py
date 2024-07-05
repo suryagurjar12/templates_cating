@@ -5,8 +5,8 @@ from django.shortcuts import render
 def home(request):
     return render(request,'home.html')
 
-def cars(request):
-    return render(request,'cars.html')
+# def cars(request):
+#     return render(request,'cars.html')
 
 def Services(request):
     return render(request,'Services.html')
@@ -16,3 +16,6 @@ def about(request):
 
 def contact(request):
     return render(request,'contact.html')
+
+def registration(request):
+    return render(request,'registration.html')
