@@ -36,11 +36,10 @@ Navbar styling
 
 /* Footer styling */
 .footer {
-background-color:green;
-color: green;
+/* background-color:green;
+color: green; */
 text-align: center;
 padding: 20px;
-position: relative;
 left: 0;
 bottom: 0;
 width: 400px;
@@ -48,9 +47,9 @@ width: 400px;
 
 /* Footer links styling */
 .footer a {
-color: green;
+/* color: green; */
 text-decoration: none;
-padding: 0 10px;
+padding:10px;
 }
 
 .footer a:hover {
